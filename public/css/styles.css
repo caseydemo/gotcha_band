@@ -1,0 +1,145 @@
+
+body{
+	background-color: #000;
+
+	margin:0px;
+	padding:0px;
+}
+.medium-title{
+	color: white;
+}
+.spacer{
+	margin:20px;
+}
+@font-face {
+	font-family: Slayer;
+	src: url('/fonts/Slaytanic.ttf');
+}
+
+nav.navbar.navbar-default.navbar-static-top{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.gotcha-title-div{
+	text-align: center;
+	height: 800px;
+	width: 100%;
+}
+.progress{
+	font-size: 50px;
+}
+#countmesg{
+	font-size: 100px;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+}
+.embeded-video{
+	display: block;
+	margin:auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+.embed-frame{
+	text-align: center;
+/*	height: 50%;
+*/}
+.title-div{
+	text-align: center;
+}
+.table{
+	width: 50%;
+	margin: auto;
+	font-size: 20px;
+}
+.nav-link, .card-title{
+	font-size: 25px;
+	color: #6E6E70;
+	font-family: 'Metal Mania', cursive;
+	font-weight: bold;
+}
+.home-title{
+	text-align: center;
+	color: #6E6E70;
+	font-family: 'Metal Mania', cursive;
+	font-weight: bolder;
+}
+.nav-link-icon{
+	font-size:15px;
+	color: #6E6E70;
+	margin: 0px 10px 0px 10px;
+}
+.nav-home{
+	color: white;
+	font-family: 'Metal Mania', cursive;
+	font-weight: bolder;
+	font-size: 30px;
+}
+.nav-icon{
+	padding:0px;
+	width: 45px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: 5px;
+}
+.navbar-right{
+	width: 250px;
+	margin-right: 10px;
+}
+.fix-right-icons{
+	navbar-right;
+}
+/* .reverb-star{
+	margin-right: 50px;
+} */
+.col{
+	margin:auto;
+	background-color: #000;
+}
+.container{
+	height: 100%;
+}
+#app{
+	height: 100%;
+	padding:0px;
+	margin:0px;
+}
+a:hover{
+	color:white;
+}
+nav.navbar-expand-lg.navbar-dark.bg-dark{
+	margin-bottom: 0px;
+}
+.table{
+	width: 100%;
+	background-color: white;
+	color: black;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	body{background-color: red;}
+	home-title{width: 100%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	body{background-color: blue;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	body{background-color: green;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	body{background-color: yellow;}
+	/* i{
+		display:inline-block;
+	} */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	body{background-color: purple;}
+}
